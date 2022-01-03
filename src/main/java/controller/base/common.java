@@ -18,7 +18,7 @@ public class common {
 		if(connection ==null) {
 			try {
 				Class.forName("com.mysql.cj.jdbc.Driver");
-				connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/sunglasses","root","sambare1404");
+				connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/sunglasses","root","");
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
